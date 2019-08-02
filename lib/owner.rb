@@ -29,7 +29,7 @@ class Owner
     @@all.clear
   end
   
-  def buy_cat
-    
+  def buy_cat(name)
+    Cat.new(name, self)
   end
 end
