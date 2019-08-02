@@ -17,4 +17,7 @@ class Dog
     @@all
   end
   
+  def buy_dog(name)
+    @dogs << Dog.new(name, self)
+  end
 end
