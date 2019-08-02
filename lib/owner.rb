@@ -8,6 +8,6 @@ class Owner
   
   def say_species
     specy = self.species
-    puts "I am a #{specy}."
+    "I am a #{specy}."
   end
 end
