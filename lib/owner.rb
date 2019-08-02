@@ -48,4 +48,13 @@ class Owner
       cat.mood = 'happy'
     end
   end
+  
+  def sell_pets
+    
+  end
+  
+  def list_pets
+    
+  end
+  
 end
