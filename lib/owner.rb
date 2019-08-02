@@ -51,6 +51,9 @@ class Owner
   
   def sell_pets
     pets = @dogs.concat(@cats)
+    pets each do |pet|
+      pet.mood = "nervous"
+    end
   end
   
   def list_pets
