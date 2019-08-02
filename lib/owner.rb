@@ -54,6 +54,8 @@ class Owner
     pets.each do |pet|
       pet.mood = "nervous"
     end
+    @cats.clear
+    @dogs.clear
   end
   
   def list_pets
