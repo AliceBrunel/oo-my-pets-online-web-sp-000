@@ -53,7 +53,7 @@ class Owner
     pets = @dogs.concat(@cats)
     pets.each do |pet|
       pet.mood = "nervous"
-      pet.owner.clear
+      pet.owner 
     end
   end
   
