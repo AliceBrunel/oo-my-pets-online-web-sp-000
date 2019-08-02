@@ -56,7 +56,7 @@ class Owner
   def list_pets
     cats_count = @cats.count
     dogs_count = @dogs.count
-    puts "I have #{@cats.count} dog(s), and #{@dogs.count} cat(s)."
+    "I have #{@cats.count} dog(s), and #{@dogs.count} cat(s)."
   end
   
 end
